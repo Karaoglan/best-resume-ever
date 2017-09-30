@@ -1,88 +1,79 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'John',
+    first: 'Burak',
     middle: '',
-    last: 'Doe',
+    last: 'Karaoglan',
   },
-  about: 'Hi, my name is John Doe. I\'m just about the most boring type of person you could possibly imagine. I like collecting leaves from the tree in my back yard and documenting each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.',
-  position: 'Software Developer',
+  about: 'Hi, here is Burak Karaoglan. I\'m passionate about simple design solutions. I like approach the problems with different kind of aspects.',
+  position: 'Software Development Engineer',
   birth: {
     year: 1990,
-    location: 'New York'
+    location: 'Samsun / Turkey'
   },
   experience: [{
-      company: 'Company A',
+      company: 'Amadeus IT Group',
       position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
+      timeperiod: 'since December 2016',
+      description: 'Designing new Rest Api Endpoints as a full stack development engineer.'
     },
     {
-      company: 'Company B',
-      position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
-      description: 'Fulfillment of extremely important tasks.'
-    },
-    {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
+      company: 'Muhamo IT',
+      position: 'Software Engineer',
+      timeperiod: 'January 2015 - January 2016',
+      description: 'Design and implement database and business models from scratch as a full stack developer'
     }
   ],
   education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
-    },
-    {
       degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
+      timeperiod: 'March 2009 - August 2016',
+      description: 'Major in Software Engineering - Software & Information Engineering, Technical University of Vienna, Austria.'
     }
   ],
   // skill level goes 0 to 100
-  skills: [{
-      name: 'HTML5',
-      level: '99'
+  skills: [
+    {
+      name: 'Java',
+      level: '85'
     },
     {
-      name: 'CSS3',
-      level: '95'
+      name: 'Git',
+      level: '85'
     },
     {
-      name: 'JavaScript',
-      level: '97'
+      name: 'Rest',
+      level: '85'
     },
     {
-      name: 'Node.js',
-      level: '93'
+      name: 'Scrum',
+      level: '85'
     },
     {
-      name: 'Angular 2',
-      level: '60'
-    },
-    {
-      name: 'TypeScript',
+      name: 'Haskel',
       level: '80'
     },
     {
-      name: 'ES.Next',
-      level: '70'
+      name: 'Maven',
+      level: '80'
     },
     {
-      name: 'Docker',
-      level: '99'
+      name: 'Angular 2',
+      level: '75'
+    },
+    {
+      name: 'NodeJS',
+      level: '60'
     }
   ],
-  skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
+  skillDescription: 'Also proficient in designing database structure, bilingual (English and German).',
   contact: {
-    email: 'john.doe@email.com',
-    phone: '0123 456789',
-    street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
+    email: 'admin@burakkaraoglan.com',
+    phone: '+90 541 896 2306',
+    street: 'Akdere Cad. 18/3 Kağıthane',
+    city: 'Istanbul',
+    website: 'burakkaraoglan.com',
+    linkedIn: 'burak-karaoglan-880a39102',
+    github: 'karaoglan'
   },
   lang: 'en' // en, de, fr, pt, cn, it, es, th, pt-br, ru, sv, id, hu
 };

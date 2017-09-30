@@ -37,8 +37,12 @@
           <td><i class="fa fa-home" aria-hidden="true"></i></td>
         </tr>
         <tr>
-          <td><a :href="person.contact.website">{{person.contact.website}}</a></td>
+          <td><a :href="'http://'+person.contact.website">http://{{person.contact.website}}</a></td>
           <td><i class="fa fa-globe" aria-hidden="true"></i></td>
+        </tr>
+        <tr>
+          <td><a :href="'https://linkedin.com/in/'+person.contact.linkedIn">https://linkedin.com/in/{{person.contact.linkedIn}}</a></td>
+          <td><i class="fa fa-linkedin" aria-hidden="true"></i></td>
         </tr>
         <tr>
           <td><a :href="'https://github.com/'+person.contact.github">https://github.com/{{person.contact.github}}</a></td>
@@ -146,7 +150,6 @@ export default Vue.component(name, getVueOptions(name));
       border-radius:50%;
       background-image:url('../assets/person.jpg');
       background-repeat:none;
-      background-position:center;
       background-size:cover;
     }
   }
